@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>websyawal</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    .header {
+      background-color:teal;
+      padding: 20px;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 2em;
+      font-weight: bold;
+    }
+    .nav-links {
+      display: flex;
+      list-style: none;
+    }
+    .nav-links li {
+      margin-left: 20px;
+    }
+    .nav-links a {
+      text-decoration: none;
+      color: #333;
+    }
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 60px 20px;
+      background-color: #00BCA1;
+      width: 100vw;  
+    }
+    .content h2 {
+      font-size: 3em;
+      font-weight: bold;
+      text-align: left;
+    }
+    .subtitle {
+      color: #ff7f50;
+      font-style: italic;
+      text-align: left;
+    }
+    .profile-picture {
+      margin-left: 20px;
+    }
+    .profile-picture img {
+      max-width: 200px;
+      height: auto;
+      border-radius: 50%;
+    }
+    .education-section {   
+      align-items: center;
+      margin: 80px 20px;
+    }
+    .tekspddkn {
+      font-size: 2em;
+      color: #003366;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .cards {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+    }
+    .card {
+      width: 300px; 
+      height: 220px; 
+      padding: 30px 15px; 
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    footer {
+      background-color:#00BCA1;
+      color:black;
+      padding: 10px 0;
+      text-align: center;
+      margin-top: auto; /* Sticky footer */
+    }
+  </style>
+</head>
+<body>
+      <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Home</h1>
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="content">
+      <h2>Syawal Ahlul Fatkhurokhman</h2>
+      <p class="subtitle">(Pelajar SMK Assalafiyyah)</p>
+    </div>
+    <div class="profile-picture">
+      <img src="syawalfoto.jpg" alt="Foto Syawal" />
+    </div>
+  </section>
+  <section class="education-section" id="pendidikan">
+    <h2 class="tekspddkn">Riwayat Pendidikan</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>SD</h3>
+        <p>Sekolah Dasar</p>
+        <p>Jl. Lumbu Barat IV C No.293, RT.003/RW.010, Bojong Rawalumbu, Kec. Rawalumbu, Kota Bks, Jawa Barat 17116</p>
+      </div>
+      <div class="card">
+        <h3>SMP</h3>
+        <p>Sekolah Menengah Pertama</p>
+        <p>Jl. Kiai Masduqi Mlangi, Mlangi, Nogotirto, Kec. Gamping, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55592</p>
+      </div>
+      <div class="card">
+        <h3>SMK</h3>
+        <p>Sekolah Menengah kejuruan</p>
+        <p>Jl. Kiai Masduqi Mlangi, Mlangi, Nogotirto, Kec. Gamping, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55592</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>Copyright &copy; 2024 Syawal Ahlul Fatkhurokhman.</p>
+  </footer>
+</body>
+</html>

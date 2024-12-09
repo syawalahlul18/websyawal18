@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>websyawal18</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+     background-image: url(smk.jpg);
+       background-size: cover; 
+      background-repeat: no-repeat; 
+      background-position: center;
+    }
+    .header {
+      background-color: teal;
+      padding: 20px;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 2em;
+      font-weight: bold;
+    }
+    .nav-links {
+      display: flex;
+      list-style: none;
+    }
+    .nav-links li {
+      margin-left: 20px;
+    }
+    .nav-links a {
+      text-decoration: none;
+      color: #333;
+    }
+    .education-section {
+      padding: 40px 20px; /* Tambahkan padding */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: calc(100vh - 160px); /* Sesuaikan tinggi */
+    }
+    .tekspddkn {
+      text-align: center; /* Posisikan teks di tengah */
+      font-size: 2em;
+      color: #003366;
+      margin-bottom: 20px;
+    }
+    .cards {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding-top: 20px; /* Tambahkan padding */
+    }
+    .card {
+      width: 300px;
+      height: auto;
+      padding: 30px 15px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    footer {
+      background-color: #00BCA1;
+      color: black;
+      padding: 10px 0;
+      text-align: center;
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">kontak</h1>
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Section Riwayat Pendidikan -->
+  <section class="education-section">
+    <h2 class="tekspddkn">KONTAK</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>whatsapp</h3>
+        <p>nomor</p>
+        <p>08213456789</p>
+      </div>
+      <div class="card">
+       <h3>email</h3>
+        <p>email</p>
+        <p>rohman182008gmail.com</p>
+      </div>
+      <div class="card">
+         <h3>rumah</h3>
+        <p>alamat</p>
+        <p>Jl. Perumahan Taman Wisma Asri Blok C9 No.11, RT.3/RW.10, Wanasari, Kec. Cibitung, Kabupaten Bekasi, Jawa Barat 17520</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Copyright &copy; 2024 Syawal Ahlul Fatkhurokhman.</p>
+  </footer>
+</body>
+</html>
